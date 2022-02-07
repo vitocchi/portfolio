@@ -1,0 +1,33 @@
+baseURL = 'https://vitocchi.com/'
+languageCode = 'ja'
+title = 'Vitocchi Apex'
+theme = "ananke"
+DefaultContentLanguage = 'ja'
+resourceDir = "../resources"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = "/images/icon.jpeg"
+  description = "Apex脳の弱い東大生がソロダイヤ目指す"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/hero-image.jpeg"
+  recent_posts_number = 2
+
+[[params.ananke_socials]]
+name='youtube'
+url = 'https://www.youtube.com/channel/UC37ofgVMo9kOzJ_pWg3SHyw'
+[[params.ananke_socials]]
+name = 'twitter'
+url = 'https://twitter.com/vitocchi'
